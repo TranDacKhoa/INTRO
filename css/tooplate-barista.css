@@ -549,7 +549,7 @@ strong {
   position: absolute;
   top: 55%;
   left: 50%;
-  transform: translate(-55%, -50%) rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
   width: 250px;
   height: 350px;
   pointer-events: none;
@@ -910,6 +910,7 @@ strong {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  border-color: white;
 }
 
 .google-map {
@@ -968,7 +969,7 @@ strong {
   box-shadow: none;
   outline: none;
   transition: all 0.3s;
-  border: 3px solid white;
+  border: 5px solid white;
 }
 
 .custom-form .form-control:hover,
