@@ -129,7 +129,7 @@ strong {
 
 .section-bg {
 
-  background-image:  url('../images/sky_bg.jpg');
+  background-color:  rgb(16, 37, 78);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -543,6 +543,7 @@ strong {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgb(37, 118, 188)), url('../images/ehe.jpg');
 }
 
+/*black box*/
 .hero-section::after {
   background-color: rgba(0, 0, 0, 0.65);
   border-radius: var(--border-radius-medium);
@@ -552,8 +553,8 @@ strong {
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
-  width: 250px;
-  height: 350px;
+  width: 300px;
+  height: 400px;
   pointer-events: none;
 }
 
@@ -584,25 +585,6 @@ strong {
   width: 100%;
   height: 100%;
   position: absolute !important;
-}
-
-.opening-hours-list {
-  margin: 0;
-  padding: 0;
-}
-
-.opening-hours-list li {
-  color: rgba(255, 255, 255, 0.75);
-  font-size: var(--btn-font-size);
-  font-weight: var(--font-weight-normal);
-  margin-bottom: 10px;
-}
-
-.opening-hours-list li .underline {
-  background-color: rgba(255, 255, 255, 0.75);
-  width: 35%;
-  height: 1px;
-  margin: auto 15px 0 15px;
 }
 
 
@@ -737,68 +719,6 @@ strong {
   top: 2px;
   bottom: 0;
 }
-
-
-/*---------------------------------------
-  OUR MENU              
------------------------------------------*/
-.menu-section {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgb(37, 118, 188)), url('../images/ehe.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.menu-block-wrap {
-  background: rgba(0, 0, 0, 0.65);
-  border-radius: var(--border-radius-medium);
-  padding: 45px;
-}
-
-.menu-block .border-top {
-  border-top-color: rgba(255, 255, 255, 0.35) !important;
-}
-
-.menu-block h6 {
-  color: var(--white-color);
-}
-
-.menu-block small {
-  color: rgba(255, 255, 255, 0.35);
-}
-
-.menu-block strong {
-  color: var(--secondary-color);
-}
-
-.menu-block-image {
-  border-radius: 100%;
-  width: 350px;
-  height: 350px;
-  object-fit: cover;
-  display: block;
-  margin: auto;
-  cursor: pointer;
-}
-
-.badge {
-  background-color: var(--primary-color);
-  font-size: 12px;
-  position: relative;
-  bottom: 4px;
-  padding-bottom: 6px;
-}
-
-.badge::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: -5px;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid var(--primary-color);
-}
-
 
 /*---------------------------------------
   Application             
@@ -1310,7 +1230,6 @@ strong {
 
 .card {
   text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 20px 7px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1318,9 +1237,10 @@ strong {
   padding-right: 25px;
   padding-bottom: 30px;
   padding-left: 25px;
-  border: 5px solid rgb(0, 0, 0);
+
   border-radius: 5%;
-  background-color: #ffffff;
+  background-color: rgb(16, 37, 78);
+  height: 400px; /* Chiều cao cố định */
 }
 
 .card-container {
@@ -1337,6 +1257,7 @@ strong {
   margin-right: 0px;
   margin-bottom: 5px;
   margin-left: 0px;
+  color: rgb(255, 255, 255);
   font-size: 18px;
   font-weight: 800;
 }
@@ -1345,6 +1266,7 @@ strong {
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 10px;
+  color: rgb(255, 255, 255);
   margin-left: 0px;
   font-weight: 400;
 }
@@ -1354,9 +1276,9 @@ strong {
   margin-right: 0px;
   margin-bottom: 20px;
   margin-left: 0px;
-  color: rgb(122, 122, 122);
+  color: rgb(255, 255, 255);
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .social-icons {
